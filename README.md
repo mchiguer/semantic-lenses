@@ -7,6 +7,10 @@ This prototype is my reading of one problem: reading the same piece of informati
 Each text becomes a small, **explainable** multidimensional profile; two texts are compared lens by lens, and the tool says
 *which dimension* they diverge on.
 
+
+![Two near-identical texts, different meaning](docs/1.png)
+![Two near-identical texts, different meaning](docs/2.png)
+
 ## The five lenses
 
 | Lens | Labels | Example of divergence |

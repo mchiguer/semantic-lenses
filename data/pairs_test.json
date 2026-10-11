@@ -1,0 +1,24 @@
+[
+  {"id": "T01", "a": "Vaccine stocks are increasing in the region.", "b": "Vaccine stocks are falling in the region.", "same": false, "type": "hard_negative", "differs_on": ["trend"]},
+  {"id": "T02", "a": "The donor paid the funds in March.", "b": "The donor will pay the funds in March.", "same": false, "type": "hard_negative", "differs_on": ["temporality"]},
+  {"id": "T03", "a": "The app is not available on Android.", "b": "The app is available on Android.", "same": false, "type": "hard_negative", "differs_on": ["polarity"]},
+  {"id": "T04", "a": "Has the patient left the hospital?", "b": "The patient has left the hospital.", "same": false, "type": "hard_negative", "differs_on": ["intent"]},
+  {"id": "T05", "a": "The exchange rate fell by three points.", "b": "The birth rate fell by three points.", "same": false, "type": "hard_negative", "differs_on": ["domain"]},
+  {"id": "T06", "a": "You should check the figures before publication.", "b": "The figures were checked before publication.", "same": false, "type": "hard_negative", "differs_on": ["intent", "temporality"]},
+  {"id": "T07", "a": "I believe the flight will be cancelled.", "b": "The flight will be cancelled.", "same": false, "type": "hard_negative", "differs_on": ["intent"]},
+  {"id": "T08", "a": "Rescuers never reached the village.", "b": "Rescuers reached the village.", "same": false, "type": "hard_negative", "differs_on": ["polarity"]},
+  {"id": "T09", "a": "The epidemic is receding in the province.", "b": "The epidemic is growing in the province.", "same": false, "type": "hard_negative", "differs_on": ["trend"]},
+  {"id": "T10", "a": "The contract was signed without a termination clause.", "b": "The contract was signed with a termination clause.", "same": false, "type": "hard_negative", "differs_on": ["polarity"]},
+  {"id": "T11", "a": "The load rose to 90% on the server.", "b": "The fever rose to 39 degrees in the patient.", "same": false, "type": "hard_negative", "differs_on": ["domain"]},
+  {"id": "T12", "a": "Why was the flight delayed?", "b": "The flight was delayed.", "same": false, "type": "hard_negative", "differs_on": ["intent"]},
+
+  {"id": "TP1", "a": "No team arrived on site.", "b": "Nobody came to the area.", "same": true, "type": "paraphrase", "differs_on": []},
+  {"id": "TP2", "a": "The number of patients is climbing fast.", "b": "Patients are becoming more and more numerous.", "same": true, "type": "paraphrase", "differs_on": []},
+  {"id": "TP3", "a": "In my view, the project is too risky.", "b": "To me, the project is too risky.", "same": true, "type": "paraphrase", "differs_on": []},
+  {"id": "TP4", "a": "When will the bridge be repaired?", "b": "On what date will the bridge be repaired?", "same": true, "type": "paraphrase", "differs_on": []},
+  {"id": "TP5", "a": "The funds will be paid next month.", "b": "The payment of the funds will take place next month.", "same": true, "type": "paraphrase", "differs_on": []},
+  {"id": "TP6", "a": "The virus was detected on the server.", "b": "Malware was detected on the server.", "same": true, "type": "paraphrase", "differs_on": []},
+
+  {"id": "TL1", "a": "The NGO sent food to the hospital.", "b": "The hospital sent food to the NGO.", "same": false, "type": "out_of_scope", "differs_on": ["roles"], "note": "Swapped roles."},
+  {"id": "TL2", "a": "The price rose by 5%.", "b": "The price rose by 50%.", "same": false, "type": "out_of_scope", "differs_on": ["quantity"], "note": "Changed quantity."}
+]

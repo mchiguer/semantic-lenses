@@ -1,0 +1,4 @@
+numpy
+scikit-learn
+# optional: LLM backend
+# anthropic
